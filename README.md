@@ -5,6 +5,7 @@
 [![Dependency Status](https://david-dm.org/zeit/pkg/status.svg)](https://david-dm.org/zeit/pkg)
 [![devDependency Status](https://david-dm.org/zeit/pkg/dev-status.svg)](https://david-dm.org/zeit/pkg?type=dev)
 [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/zeit)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frobcresswell%2Fpkg.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frobcresswell%2Fpkg?ref=badge_shield)
 
 This command line interface enables you to package your Node.js project into an executable that can be run even on devices without Node.js installed.
 
@@ -227,3 +228,7 @@ await exec([ 'app.js', '--target', 'host', '--output', 'app.exe' ])
 This error can be caused by deleting the directory the application is
 run from. Or, generally, deleting `process.cwd()` directory when the
 application is running.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frobcresswell%2Fpkg.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frobcresswell%2Fpkg?ref=badge_large)
